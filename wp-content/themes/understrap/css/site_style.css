@@ -436,10 +436,11 @@ a:hover {
     position: relative;
     z-index: 111;
 }
-.input-group .form-control {
-  max-width: 90%;
-}
+
 @media (max-width: 767px) {
+  .input-group .form-control {
+    max-width: 90%;
+  }
   .form-control.search-input {
     position: absolute;
     width: 0%;
@@ -450,6 +451,7 @@ a:hover {
     left: 11px;
     right: initial;
   }
+
   .show-search .form-control.search-input {
     display: block;
     position: absolute;
